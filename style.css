@@ -66,7 +66,33 @@ header {
   border: solid thin black;
   border-radius: 3px;
 }
+.customSelect {
+  padding: 0 10px;
+  border: solid thin gray;
+  overflow-y: auto;
+  max-height: 100px;
+}
 
+.itemListOption {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.itemListOption button {
+  margin-left: 25px;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: solid thin black;
+}
+
+table {
+  margin: auto;
+}
 main,
 footer {
   display: flex;
@@ -76,6 +102,36 @@ footer {
   width: 100%;
   padding: 10px 0;
   background-color: lightgray;
+  text-align: center;
+}
+
+#history {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.flashcard {
+  text-align: center;
+  margin: auto;
+  padding: 100px 15px;
+  width: 80%;
+  margin: 20px;
+  border: solid thin black;
+  border-radius: 5px;
+  box-shadow: 5px 5px black;
+  background-color: white;
+}
+
+.flashcard-content {
+  font-size: 5em;
+  font-weight: bold;
+  width: 100%;
+}
+
+.multiCheckItem {
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 footer {

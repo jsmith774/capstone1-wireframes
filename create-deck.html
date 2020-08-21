@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CyberCard Wireframes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div id="title"><h1>CyberCard - Online Flashcard App</h1></div>
+        <div id="context-bar">
+          <div id="context-button"><a href="index.html">⌂</a></div>
+          <span id="context-label">Create Deck<span>
+        </div>
+      </header>
+      <main>
+        <form>
+            <label for="deckName">Deck Name:</label>
+            <input type="text" id="deckName" name="deckName"/>
+            <label for="notes">Educator deck notes/search terms/misc info:</label>
+            <input type="text" id="notes" name="notes"/>
+            <label for="timelimit">Time Limit:</label>
+            <input type=text" id="timelimit" name="timelimit"/>
+            <p> </p>
+            <fieldset>
+              <legend>Choose cards to be included in this deck:</legend>
+              <span class="multiCheckItem"><input type="checkbox" name="cards" value="FC1" id="FC1"/><label for="FC1">and</label></span>
+              <span class="multiCheckItem"><input type="checkbox" name="cards" value="FC2" id="FC2"/><label for="FC2">at</label></span>
+              <span class="multiCheckItem"><input type="checkbox" name="cards" value="FC3" id="FC3"/><label for="FC3">bunny</label></span>
+              <span class="multiCheckItem"><input type="checkbox" name="cards" value="FC4" id="FC4"/><label for="FC4">but</label></span>
+              <span class="multiCheckItem"><input type="checkbox" name="cards" value="FC5" id="FC5"/><label for="FC5">he</label></span>
+              <span class="multiCheckItem"><input type="checkbox" name="cards" value="FC6" id="FC6"/><label for="FC6">on</label></span>
+              <span class="multiCheckItem"><input type="checkbox" name="cards" value="FC7" id="FC7"/><label for="FC7">she</label></span>
+              <span class="multiCheckItem"><input type="checkbox" name="cards" value="FC8" id="FC8"/><label for="FC8">the</label></span>
+            </fieldset>
+            <div class="buttonGroup">
+            <input type="reset"/>
+            <input type="submit" value="Save"/>
+            
+          </div>
+        </form>
+      </main>
+      <footer>Footer</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

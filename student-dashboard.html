@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CyberCard Wireframes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div id="title"><h1>CyberCard - Online Flashcard App</h1></div>
+        <div id="context-bar">
+          <div id="context-button"><a href="index.html">⌂</a></div>
+          <span id="context-label">Student Dashboard<span>
+        </div>
+      </header>
+      <main>
+        <form>
+            <label for="email">Select a deck to practice:</label>
+            <select class="itemList" size="4">
+              <option value="D1">Deck 1</option>
+              <option value="D2">Deck 2</option>
+              <option value="D3">Deck 3</option>
+              <option value="D4">Deck 4</option>
+              <option value="D5">Deck 5</option>
+              <option value="D6">Deck 6</option>
+            </select>
+
+          <!-- 
+            **************************************************
+            IF BUTTON NEEDED: BUILD CUSTOM COMPONENT LIKE THIS
+            **************************************************
+          -->  
+          <!--
+            <div class="customSelect">
+              <div class="itemListOption"><a href="Option">Option</a><button>Drill</button></div>
+              <div class="itemListOption"><a href="Option">Option</a><button>Drill</button></div>
+              <div class="itemListOption"><a href="Option">Option</a><button>Drill</button></div>
+              <div class="itemListOption"><a href="Option">Option</a><button>Drill</button></div>
+              <div class="itemListOption"><a href="Option">Option</a><button>Drill</button></div>
+              <div class="itemListOption"><a href="Option">Option</a><button>Drill</button></div>
+            </div>
+          -->
+
+           <label for="email">Select to take graded assessment:</label>
+            <select class="itemList" size="4">
+              <option value="D1">Assessment 1</option>
+              <option value="D2">Assessment 2</option>
+              <option value="D3">Assessment 3</option>
+            </select>
+          </div>
+        </form>
+        <div id="history">
+          <h3>Deck/Assessment History</h3>
+          <table>
+            <thead>
+              <th>Name:</th>
+              <th>Type:</th>
+              <th>Date:</th>
+              <th>Score:</th>
+            </thead>
+            <tr>
+              <td>Deck 1</td>
+              <td>Drill</td>
+              <td>01/01/20 11:47am</td>
+              <td>6/10</td>
+            </tr>
+            <tr>
+              <td>Deck 1</td>
+              <td>Drill</td>
+              <td>01/02/20 1:30pm</td>
+              <td>10/10</td>
+            </tr>
+            <tr>
+              <td>Deck 1</td>
+              <td>Assessment</td>
+              <td>01/02/20 2:53pm</td>
+              <td>9/10</td>
+            </tr>
+            <tr>
+              <td>Deck 2</td>
+              <td>Drill</td>
+              <td>01/04/20 9:27am</td>
+              <td>15/20</td>
+            </tr>
+          </table>
+        </div>
+      </main>
+      <footer>Footer</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

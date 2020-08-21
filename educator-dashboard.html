@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CyberCard Wireframes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div id="title"><h1>CyberCard - Online Flashcard App</h1></div>
+        <div id="context-bar">
+          <div id="context-button"><a href="index.html">⌂</a></div>
+          <span id="context-label">Educator Dashboard<span>
+        </div>
+      </header>
+      <main>
+        <form>
+            <label for="flashcards">All flashcards &nbsp; <button> Add (+)</button></label>
+            <select id="flashcards" class="itemList" size="4">
+              <option value="FC1">and</option>
+              <option value="FC2">at</option>
+              <option value="FC3">bunny</option>
+              <option value="FC4">but</option>
+              <option value="FC5">he</option>
+              <option value="FC6">on</option>
+              <option value="FC7">she</option>
+              <option value="FC8">the</option>
+            </select>
+
+          <!-- 
+            **************************************************
+            IF BUTTON NEEDED: BUILD CUSTOM COMPONENT LIKE THIS
+            **************************************************
+          -->  
+          <!--
+            <div class="customSelect">
+              <div class="itemListOption"><a href="Option">Option</a><button>Drill</button></div>
+              <div class="itemListOption"><a href="Option">Option</a><button>Drill</button></div>
+              <div class="itemListOption"><a href="Option">Option</a><button>Drill</button></div>
+              <div class="itemListOption"><a href="Option">Option</a><button>Drill</button></div>
+              <div class="itemListOption"><a href="Option">Option</a><button>Drill</button></div>
+              <div class="itemListOption"><a href="Option">Option</a><button>Drill</button></div>
+            </div>
+          -->
+
+           <label for="decks">All decks &nbsp; <button> Add (+)</button></label>
+            <select  id="decks" class="itemList" size="4">
+              <option value="D1">Assessment 1</option>
+              <option value="D2">Assessment 2</option>
+              <option value="D3">Assessment 3</option>
+            </select>
+          </div>
+        </form>
+        
+      </main>
+      <footer>Footer</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

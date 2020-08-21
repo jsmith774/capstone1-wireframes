@@ -13,18 +13,21 @@
         <div id="title"><h1>CyberCard - Online Flashcard App</h1></div>
         <div id="context-bar">
           <div id="context-button"><a href="index.html">⌂</a></div>
-          <span id="context-label">Login Form<span>
+          <span id="context-label">Create Flashcard<span>
         </div>
       </header>
       <main>
         <form>
-            <label for="email">Email Address:</label>
-            <input type="text" id="email" name="email"/>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password"/>
+            <label for="cardPrompt">Card Prompt:</label>
+            <input type="text" id="cardPrompt" name="cardPrompt"/>
+            <label for="answer">Choose mp3 with recorded answer:</label>
+            <input type="file" id="answer" name="answer"/>
+            <label for="notes">Educator card notes/search terms/misc info:</label>
+            <input type="text" id="notes" name="notes"/>
             <div class="buttonGroup">
             <input type="reset"/>
-            <input type="submit" value="Login"/>
+            <input type="submit" value="Save"/>
+            
           </div>
         </form>
       </main>
